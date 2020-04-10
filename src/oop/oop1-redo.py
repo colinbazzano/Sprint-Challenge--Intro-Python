@@ -17,3 +17,40 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+# BASE CLASS
+
+
+class Vehicle:
+    pass
+
+# Sub Class 1 level deep
+
+
+class FlightVehicle(Vehicle):
+    pass
+
+
+# Sub Class 2 levels deep
+class Starship(FlightVehicle):
+    pass
+# Sub Class 2 levels deep
+
+
+class Airplane(FlightVehicle):
+    pass
+# Sub Class 1 level deep
+
+
+class GroundVehicle(Vehicle):
+    pass
+# Sub Class 2 levels deep
+
+
+class Car(GroundVehicle):
+    pass
+# Sub Class 2 levels deep
+
+
+class Motorcycle(GroundVehicle):
+    pass
